@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=seed\ posOfTapBit
+comment0.target=LFSR(java.lang.String,\ int)
+comment0.text=\r\n\ Modifies\ the\ attributes\ of\ the\ class\r\n\ @param\ seed\ A\ string\ used\ to\ put\ into\ the\ attribute\ register\r\n\ posOfTapBit\ An\ int\ used\ to\ put\ into\ the\ attribute\ tap\r\n\ @exception\ Any\ exception\r\n\ @return\ No\ return\ value\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ Gives\ the\ object\ a\ String\ name\ when\ printing\ on\ terminal\r\n\ @param\ None\r\n\ @exception\ Any\ exception\r\n\ @return\ Returns\ a\ String,\ which\ is\ the\ register\ of\ the\ class\r\n
+comment2.params=
+comment2.target=int\ step()
+comment2.text=\r\n\ Shifts\ the\ register\ by\ a\ value\ of\ one,\ with\ the\ last\ value\ being\ the\ xor\ of\ the\ first\ value\ and\ \r\n\ the\ value\ at\ the\ tap\ position\r\n\ @param\ None\r\n\ @exception\ Any\ exception\r\n\ @return\ Returns\ an\ int,\ which\ is\ the\ bit\ that\ was\ shifted\ on\ the\ rightmost\ side\r\n
+comment3.params=numOfSteps
+comment3.target=int\ generate(int)
+comment3.text=\r\n\ Runs\ the\ step\ method\ a\ certain\ number\ of\ times\r\n\ @param\ numOfSteps\ An\ int\ determining\ the\ number\ of\ times\ the\ step\ method\ should\ be\ run\r\n\ @exception\ Any\ exception\r\n\ @return\ An\ int,\ which\ is\ the\ base\ 10\ representation\ of\ all\ the\ new\ bits\ shifted\ in\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ Tests\ out\ each\ method\ in\ the\ LFSR\ class\r\n\ @param\ args\ An\ array\ of\ strings\ inputted\ from\ the\ console\r\n\ @exception\ Any\ exception\r\n\ @return\ Void\r\n
+numComments=5

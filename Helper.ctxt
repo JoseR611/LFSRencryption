@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=char\ xor(char,\ char)
+comment0.text=\r\n\ Prints\ error\ message\ if\ the\ inputs\ are\ not\ 0\ or\ 1\ or\ finds\ the\ XOR\ of\ a\ and\ b\r\n\ @param\ a\ Contains\ a\ char\r\n\ b\ Contains\ a\ char\r\n\ @exception\ Any\ exception\r\n\ @return\ The\ XOR\ of\ a\ and\ b\ if\ they\ are\ 0\ or\ 1,\ or\ X\ if\ not\r\n
+comment1.params=s
+comment1.target=int\ binaryToDec(java.lang.String)
+comment1.text=\r\n\ Converts\ a\ binary\ number\ to\ a\ base\ ten\ number\ \r\n\ @param\ s\ Contains\ a\ string\r\n\ @exception\ Any\ exception\r\n\ @return\ -1\ if\ there\ is\ a\ non-zero\ or\ non-one\ character\ in\ s\ or\ return\ value\ of\ binary\ string\ as\ an\ int\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ Tests\ the\ methods\ xor\ and\ binaryToDec\ and\ prints\ the\ results\ on\ screen\r\n\ @param\ arg\ A\ string\ array\ containing\ the\ command\ line\ arguments\r\n\ @exception\ Any\ exception\r\n\ @return\ No\ return\ value\r\n
+numComments=3

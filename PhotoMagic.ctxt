@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=input\ lfsrInput
+comment0.target=Picture\ transform(Picture,\ LFSR)
+comment0.text=\r\n\ Encrypts\ or\ decrypts\ the\ picture\ by\ encrypting\ the\ values\ of\ each\ of\ the\ colors\ of\ each\ pixel\r\n\ @param\ input\ A\ type\ Picture\ used\ as\ the\ image\ to\ be\ encrypted\ or\ decrypted\r\n\ lfsrInput\ A\ type\ LFSR\ used\ to\ call\ the\ generate\ method\ and\ encrypt\ or\ decrypt\ the\ colors\ of\ the\ image\r\n\ @exception\ Any\ exception\r\n\ @return\ Returns\ the\ image\ inputted,\ but\ encrypted.\ If\ already\ was\ encrypted\ when\ run,\ returns\ the\ decrypted\ image\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Used\ for\ encrypting\ or\ decrypting\ an\ image\ with\ certain\ parameters,\ as\ well\ as\ saving\ the\ resulting\ image\r\n\ @param\ args\ An\ array\ of\ Strings\ inputted\ from\ the\ console\r\n\ @exception\ Any\ exception\r\n\ @return\ Void\r\n
+numComments=2
